@@ -3,7 +3,6 @@ const authController = require('../controllers/authController')
 const { userValidationMiddleware } = require('../validation/userValidation')
 require('../utils/passportOAuth')
 const passport = require('passport')
-const payload = {}
 router.post('/signup', userValidationMiddleware, authController.signup)
 router.post('/login', authController.login)
 
@@ -20,7 +19,6 @@ router.get('/auth/google/callback', passport.authenticate('google', { failureRed
 })
 
 router.get('/auth/github/callback', passport.authenticate('github', { failureRedirect: '/' }), (req, res) => {
-    console.log('Here now!');
     return res.redirect('/api/v1/users/protected')
 })
 
@@ -28,6 +26,8 @@ router.get('/auth/github/callback', passport.authenticate('github', { failureRed
 // TODO: 
 // AUTHORIZATION TO PROTECTED ROUTES
 router.get('/protected', authController.profile)
+
+// router.get('/protected', (passport.authenticate('session')), authController.profile)
 
 // LOGOUT - DESTROY SESSION
 router.post('/logout', (req, res, next) => {

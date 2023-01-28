@@ -18,6 +18,8 @@ passport.use(new GoogleStrategy({
     passReqToCallback: true
 }, async (req, accessToken, refreshToken, profile, done) => {
 
+    console.log(req);
+
     const googleDetails = {
         socialId: profile.id,
         displayName: profile.displayName,
