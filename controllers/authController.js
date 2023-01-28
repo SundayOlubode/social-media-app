@@ -32,10 +32,6 @@ const createSendToken = async (user, statusCode, res) => {
 };
 
 const signup = async (req, res) => {
-    // console.log(req.headers)
-    // logger.info(req.body)
-
-    const payload = {};
 
     const { username, email, password, displayName } = req.body;
 

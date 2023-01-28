@@ -6321,3 +6321,5 @@
 2023-01-25 20:04:30:430 [31merror[39m: [31m/favicon.ico not found on this server[39m
 2023-01-25 20:04:30:430 [35mhttp[39m: [35m::1 GET /favicon.ico 403 1504 - 3.573 ms[39m
 [35m[39m
+2023-01-26 04:08:38:838 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-01-26 04:08:38:838 [32minfo[39m: [32mtable sync successful[39m
