@@ -4,7 +4,7 @@ require("dotenv").config();
 const redirectURL = 'http://localhost:3000'
 
 
-const socialAuth = (req, res, next) => {
+const socialAuth = async (req, res, next) => {
 
     // OBTAIN USER DETAILS FROM SESSION
     const {
@@ -20,7 +20,9 @@ const socialAuth = (req, res, next) => {
     // Send token to client
     res.cookie("jwt", token, cookieOptions);
 
-    res.redirect(redirectURL)
+    res.redirect('https://test-social.vercel.app/', () => {
+        
+    })
 
 }
 

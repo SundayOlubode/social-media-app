@@ -4326,3 +4326,50 @@
 2023-04-03 09:21:10:2110 [31merror[39m: [31m/favicon.ico not found on this server[39m
 2023-04-03 09:48:55:4855 [31merror[39m: [31m/favicon.ico not found on this server[39m
 2023-04-06 21:10:55:1055 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-10 23:44:04:444 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-10 23:46:20:4620 [31merror[39m: [31muncaughtException: await is only valid in async functions and the top level bodies of modules[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\controllers\socialAuthController.js:21[39m
+[31m    await res.cookie("jwt", token, cookieOptions);[39m
+[31m    ^^^^^[39m
+
+[31mSyntaxError: await is only valid in async functions and the top level bodies of modules[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:7:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:9:19)[39m
+2023-04-10 23:48:08:488 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-10 23:49:51:4951 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-10 23:51:43:5143 [31merror[39m: [31muncaughtException: Unexpected token ')'[39m
+[31mC:\Users\user\Documents\Projects\social-media-app\controllers\socialAuthController.js:23[39m
+[31m    res.redirect('https://test-social.vercel.app/', ())[39m
+[31m                                                     ^[39m
+
+[31mSyntaxError: Unexpected token ')'[39m
+[31m    at Object.compileFunction (node:vm:352:18)[39m
+[31m    at wrapSafe (node:internal/modules/cjs/loader:1032:15)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1067:27)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\routes\userRoute.js:7:24)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1103:14)[39m
+[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:981:32)[39m
+[31m    at Function.Module._load (node:internal/modules/cjs/loader:822:12)[39m
+[31m    at Module.require (node:internal/modules/cjs/loader:1005:19)[39m
+[31m    at require (node:internal/modules/cjs/helpers:102:18)[39m
+[31m    at Object.<anonymous> (C:\Users\user\Documents\Projects\social-media-app\app.js:9:19)[39m

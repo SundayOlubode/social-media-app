@@ -14229,3 +14229,41 @@
 [35m[39m
 2023-04-06 21:11:18:1118 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AVHEtk4P2dUKRg4ENpPdrhr0iKkK9SquLBT3_HKUM7XOASbIsMT3U3N79nwegF-Qkwn-DQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 302 86 - 3613.340 ms[39m
 [35m[39m
+2023-04-10 23:43:46:4346 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-10 23:43:50:4350 [32minfo[39m: [32mtable sync successful[39m
+2023-04-10 23:44:04:444 [35mhttp[39m: [35m::1 GET / 304 - - 9.784 ms[39m
+[35m[39m
+2023-04-10 23:44:04:444 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-10 23:44:04:444 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 7.522 ms[39m
+[35m[39m
+2023-04-10 23:44:07:447 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 5.710 ms[39m
+[35m[39m
+2023-04-10 23:44:15:4415 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AVHEtk40ie4UqqOpgwYRmcfQLWgwDDFkjpMFW4OJ7hUOw92PwToHscFqhQXdJX1peFwSBg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 302 86 - 3208.255 ms[39m
+[35m[39m
+2023-04-10 23:46:09:469 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-10 23:46:13:4613 [32minfo[39m: [32mtable sync successful[39m
+2023-04-10 23:46:30:4630 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-10 23:46:34:4634 [32minfo[39m: [32mtable sync successful[39m
+2023-04-10 23:48:08:488 [35mhttp[39m: [35m::1 GET / 304 - - 11.192 ms[39m
+[35m[39m
+2023-04-10 23:48:08:488 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-10 23:48:08:488 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2272 - 7.224 ms[39m
+[35m[39m
+2023-04-10 23:48:11:4811 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 6.835 ms[39m
+[35m[39m
+2023-04-10 23:48:19:4819 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AVHEtk6PLWN8VU5qECV5MJnPB8134RcwtkRqmgKJT1CdlOXIj5lVkSErPX4AQYZbFw9FGA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 302 106 - 3288.345 ms[39m
+[35m[39m
+2023-04-10 23:49:38:4938 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-10 23:49:42:4942 [32minfo[39m: [32mtable sync successful[39m
+2023-04-10 23:49:51:4951 [35mhttp[39m: [35m::1 GET / 304 - - 8.848 ms[39m
+[35m[39m
+2023-04-10 23:49:51:4951 [31merror[39m: [31m/favicon.ico not found on this server[39m
+2023-04-10 23:49:51:4951 [35mhttp[39m: [35m::1 GET /favicon.ico 403 2273 - 6.445 ms[39m
+[35m[39m
+2023-04-10 23:49:54:4954 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google 302 0 - 6.838 ms[39m
+[35m[39m
+2023-04-10 23:50:01:501 [35mhttp[39m: [35m::1 GET /api/v1/users/auth/google/callback?code=4%2F0AVHEtk7w1rLZTZvWT59UDhtmzYnr1sK5c-2ad8LZD7l5zbuFN-t5Jjh6_vxzKLlNjPMHrA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent 302 106 - 2845.146 ms[39m
+[35m[39m
+2023-04-10 23:51:40:5140 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-10 23:51:54:5154 [32minfo[39m: [32mdatabase connected successfuly[39m
+2023-04-10 23:51:57:5157 [32minfo[39m: [32mtable sync successful[39m
