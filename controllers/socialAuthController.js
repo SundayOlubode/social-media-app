@@ -20,9 +20,7 @@ const socialAuth = async (req, res, next) => {
     // Send token to client
     res.cookie("jwt", token, cookieOptions);
 
-    res.redirect('https://test-social.vercel.app/', () => {
-        
-    })
+    res.redirect('https://test-social.vercel.app/')
 
 }
 
